@@ -13,7 +13,11 @@ public class Main {
         for ( int i = 0; i < n; i++) {
             coin[i] = scan.nextInt();
         }
+        count = takeCount(coin, count, n, m);
+        System.out.println(count);
+    }
 
+    static int takeCount(int[]coin, int count, int n, int m ) {
         for ( int i = n-1; i >=0; i--) {
             if ( m == 0 ) {
                 break;
@@ -26,7 +30,7 @@ public class Main {
                 m = m % coin[i];
             }
         }
-
-        System.out.println(count);
+        return count;
     }
+
 }
