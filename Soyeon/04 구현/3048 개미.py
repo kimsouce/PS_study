@@ -7,9 +7,9 @@ t = int(input())
 
 dir = {} #딕셔너리 사용 #key값과 value값을 설정하기 위해
 for ant in ants[0]:
-  dir[ant] = 0
+  dir[ant] = 0 # 첫번째 그룹의 value는 0이다
 for ant in ants[1]:
-  dir[ant] = 1
+  dir[ant] = 1 # 두번째 그룹의 value는 1
 
 ants = ants[0][::-1] + ants[1] #FIFO 맞춰주기 위해
 
