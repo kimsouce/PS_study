@@ -19,7 +19,7 @@ for _ in range(n):
 count = 0
 for i in range(100):
   for j in range(100):
-    if v[i][j] ==1 and v[i+1][j] ==1 and v[i][j+1] ==1 and v[i+1][j+1] ==1:  #굳이 길이 안생겨도 됨. 1 by 1 정사각형의 네 꼭짓점이 모두 방문되어 있으면 count 올려준다
+    if v[i][j] ==1 and v[i+1][j] ==1 and v[i][j+1] ==1 and v[i+1][j+1] ==1:  #굳이 변이 안생겨도 됨. 1 by 1 정사각형의 네 꼭짓점이 모두 방문되어 있으면 count 올려준다
       count +=1
 
 print(count)
