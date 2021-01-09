@@ -19,3 +19,11 @@ datas = sorted(datas, key=lambda k:k[0])
 datas = sorted(datas, key=lambda k:k[1])
 </code>
 </pre>
+
+15685. 리스트 append
+
+<pre>
+<code>
+moves +=((move+1)%4 for move in moves[::-1])
+</code>
+</pre>
