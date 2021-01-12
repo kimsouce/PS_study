@@ -49,3 +49,4 @@
 [1012]: https://www.acmicpc.net/problem/1012
 [1743]: https://www.acmicpc.net/problem/1743
 [14226]: https://www.acmicpc.net/problem/14226
+[10026]: https://www.acmicpc.net/problem/10026
