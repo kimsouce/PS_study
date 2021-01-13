@@ -3,6 +3,7 @@ alpha = []
 for _ in range(n):
     alpha.append(input())
 
+
 alpha_digit = {}
 for alphabet in alpha:
     for i in range(len(alphabet)):
