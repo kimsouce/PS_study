@@ -50,4 +50,3 @@
 [1743]: https://www.acmicpc.net/problem/1743
 [14226]: https://www.acmicpc.net/problem/14226
 [18352] : https://www.acmicpc.net/problem/18352
-
