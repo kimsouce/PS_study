@@ -39,3 +39,14 @@ for ant in ants[1]:
   dir[ant] = 1 # 두번째 그룹의 value는 1이다
 </code>
 </pre>
+
+2644. 인접행렬 만들기
+
+<pre>
+<code>
+for _ in range(m):
+  x, y = map(int, input().split())
+  family[x].append(y)
+  family[y].append(x)
+</code>
+</pre>
