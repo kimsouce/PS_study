@@ -50,3 +50,12 @@ for _ in range(m):
   family[y].append(x)
 </code>
 </pre>
+
+1012. 재귀함수 limit 걸어주기
+<pre>
+<code>
+#특히 DFS 
+import sys
+sys,setrecursionlimit(10000)
+</code>
+</pre>
