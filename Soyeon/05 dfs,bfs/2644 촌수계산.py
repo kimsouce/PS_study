@@ -21,9 +21,9 @@ def check(v, target):
     if v == target:
       return count
 
-    if not visited[v]:  #방문 리스트에 해당 노드가 없으면(노드 4, 5, 6에 대하여 ) 
-      count +=1
-      visited[v] = True
+    if not visited[v]:  #방문 리스트에 해당 노드가 없으면
+      count +=1  #횟수 올려주고
+      visited[v] = True  #방문처리
       for e in family[v]:
         if not visited[e]:
           q.append([e, count])
