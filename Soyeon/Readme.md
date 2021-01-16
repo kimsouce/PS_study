@@ -56,6 +56,6 @@ for _ in range(m):
 <code>
 #특히 DFS 
 import sys
-sys,setrecursionlimit(10000)
+sys.setrecursionlimit(10000)
 </code>
 </pre>
