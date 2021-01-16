@@ -1,5 +1,5 @@
 import sys
-sys.setrecursionlimit(10000)  #런타임 에러 방지  #파이썬에서 재귀함수 쓸 때는 항상 limit 
+sys.setrecursionlimit(10000)  #런타임 에러 방지  #파이썬에서 재귀함수 쓸 때는 항상 limit 걸어주기
 
 def dfs(x,y):
   if x<=-1 or x>=n or y<=-1 or y>=m:
