@@ -1,4 +1,4 @@
-# seriously 초3문제
+# seriously 바보...?
 
 n = int(input())
 house = list(map(int, input().split()))
