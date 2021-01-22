@@ -15,7 +15,11 @@
 
 ## Chapter 6. 정렬  
 
-- [18310][18310] 안테나  
+- [1157][1157] 단어공부
+- [1213][1213] 펠린드롬 만들기
+- [10825][10825] 국영
+- [18310][18310] 안테나 
+
 
 
 
@@ -27,4 +31,7 @@
 [11399]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch03_Greedy/11399_ATM.py
 [13458]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch03_Greedy/13458_시험감독.py
 [2668]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch05_DFS_BFS/2668_숫자고르기.py  
+[1157]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/1157_단어공부.py
+[1213]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/1213_펠린드롬만들기.py
+[10825]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/10825_국영수.py
 [18310]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/18310_안테나.py
