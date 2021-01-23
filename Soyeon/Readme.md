@@ -59,3 +59,12 @@ import sys
 sys.setrecursionlimit(10000)
 </code>
 </pre>
+
+1157. 리스트의 특정 원소 출현 횟수 세기
+<pre>
+<code>
+result = max(count_list)
+if count_list.count(result) >=2:  #만약 최댓값이 2개이면
+  print('?')
+</code>
+</pre>
