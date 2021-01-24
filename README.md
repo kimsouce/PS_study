@@ -60,6 +60,7 @@
 [10825]: https://www.acmicpc.net/problem/10825
 [18310]: https://www.acmicpc.net/problem/18310
 [9251]: https://www.acmicpc.net/problem/9251
+[9205]: https://www.acmicpc.net/problem/9205
 [2589]: https://www.acmicpc.net/problem/2589
 [2667]: https://www.acmicpc.net/problem/2667
 [10472]: https://www.acmicpc.net/problem/10472
