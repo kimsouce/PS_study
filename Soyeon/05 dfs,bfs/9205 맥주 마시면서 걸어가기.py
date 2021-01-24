@@ -1,3 +1,39 @@
+from collections import deque
+
+
+def bfs(x, y):
+  q = deque()
+  b = []
+  q.append([x, y, 20])
+  b.append([x, y, 20])
+  while q:
+    x, y, beer = q.popleft()  
+    if x == f_x and y==f_y:  #페스티벌에 도착
+      print('happy')
+      return
+    for nx, ny in point:
+      if [nx, ny, 20] not in b:
+        len = abs(nx-x) + abs(ny-y)
+        if len <= beer*50:  #맥주가 20병 있는데 50미터마다 한병씩 먹음 #가는 길은 20*50을 넘어서는 안됨
+          q.append([nx, ny, 20])
+          b.append([nx, ny, 20])
+  print('sad')
+  return
+
+t = int(input())
+for _ in range(t):
+  n = int(input())
+  h_x, h_y = map(int, input().split())
+  point=[]  #편의점과 페스티발 좌표를 담음
+  for _ in range(n):
+    s_x, s_y = map(int, input().split())
+    point.append([s_x, s_y])
+  f_x, f_y = map(int, input().split())
+  point.append([f_x, f_y])
+  bfs(h_x, h_y)  #집에서부터 페스티벌 까지의 최단거리 찾기
+
+
+
 '''
 #오류코드 수정 필요
 from collections import deque
