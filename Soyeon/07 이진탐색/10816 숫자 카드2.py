@@ -20,7 +20,7 @@ for i in array_M:
   
   
   
-# Counter로 받고 if 문으로 나눠서 프린트
+# Counter로 받고 if 문으로 나눠서 프린트: 756ms
 from collections import Counter
 n = int(input())
 card = Counter(input().split())
