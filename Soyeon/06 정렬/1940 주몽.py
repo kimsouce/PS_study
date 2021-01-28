@@ -16,3 +16,27 @@ while len(n_list) >0:   #n_list의 원소가 모두 없어질 때 까지 반복
       else:
         continue   #아니라면 다시 i 에 대한 for문으로 돌아감
 print(count)
+
+
+
+
+'''
+#정렬을 사용해서 푼 코드
+N = int(input())
+M = int(input())
+li = sorted(list(map(int, input().split())))
+ans = 0
+s, e = 0, len(li)-1
+
+while s != e:
+    if li[s] + li[e] == M:
+        ans += 1
+        e -= 1
+    elif li[s] + li[e] < M:
+        s += 1
+    elif li[s] + li[e] > M:
+        e -= 1
+        
+print(ans)
+
+'''
