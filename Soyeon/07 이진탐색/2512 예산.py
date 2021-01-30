@@ -21,4 +21,7 @@ while (start<=end):
     result = mid     #최적의 예산을 mid값으로 반환하고
     start = mid +1    #상한액을 구하기 위해 시작점을 더 큰 값으로 옮겨줌
 
-print(result)
+print(result)    #end 출력해도 같은 결과 
+
+
+
