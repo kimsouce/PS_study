@@ -19,9 +19,13 @@
 - [1213][1213] 펠린드롬 만들기
 - [10825][10825] 국영
 - [18310][18310] 안테나 
+- [2437][2437] 저울
 
+## Chapter 7. 이진탐색  
 
+## Chapter 8. 다이나믹 프로그래밍
 
+- [1436][1436] 1로 만들기
 
 [1339]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch03_Greedy/1339_단어수학.py 
 [1931]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch03_Greedy/1931_회의실배정.py
@@ -35,3 +39,5 @@
 [1213]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/1213_펠린드롬만들기.py
 [10825]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/10825_국영수.py
 [18310]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/18310_안테나.py
+[2437]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch06_Sorting/2437_저울.py
+[1436]: https://github.com/kimsouce/PS_study/blob/main/Yehoon/Ch08_Dynamic_Programming/1436_1로만들기.py
