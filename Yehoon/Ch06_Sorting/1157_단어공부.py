@@ -1,7 +1,9 @@
 from collections import Counter
 word = input().strip().upper()
 char_cnt = Counter(word)
+print(char_cnt)
 common = char_cnt.most_common()
+print(common)
 if len(common) > 1 and int(common[0][1]) == int(common[1][1]):
     print("?")
 else:

@@ -3,6 +3,8 @@ n = int(input())
 num_list = list(map(int, input().split()))
 num_list.sort()
 target = 1
+#무게는 1보다 크니까 조합해서 나올 수 있는 무게에서 +1만 추가 되면 측정할 수 없는 무게의 최소값
+
 for i in range(len(num_list)):
     if target < num_list[i]:
         break
