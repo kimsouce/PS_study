@@ -94,4 +94,4 @@
 [11403]: https://www.acmicpc.net/problem/11403
 [10282]: https://www.acmicpc.net/problem/10282
 [1916]: https://www.acmicpc.net/problem/1916
-[4485] : https://www.acmicpc.net/problem/4485
+[4485]: https://www.acmicpc.net/problem/4485
