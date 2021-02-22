@@ -68,3 +68,11 @@ if count_list.count(result) >=2:  #만약 최댓값이 2개이면
   print('?')
 </code>
 </pre>
+
+18352. 빈 리스트인지 확인하기
+<pre>
+<code>
+if not city:     
+    print('-1')
+</code>
+</pre>
