@@ -35,4 +35,6 @@ topology_sort()
 '''
 질문: 왜 4번째 줄에서
 indegree = [[0] for _ in range(n+1)] 라고 하면 안될까요...?
+
+해결: indegree = [0 for _ in range(n+1)] 하면 
 '''
