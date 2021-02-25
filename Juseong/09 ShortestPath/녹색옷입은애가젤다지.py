@@ -20,18 +20,19 @@ def dijkstra(n, array, distance):
         for i in range(4):
             nx = x+dx[i]
             ny = y+dy[i]
-            if nx < 0 or nx >= n or ny < 0 or ny >= n:
+            if nx < 0 or nx >= n or ny < 0 or ny >= n: #
                 continue
             nd = d + array[nx][ny]
             if distance[nx][ny] > nd:
                 distance[nx][ny] = nd
                 heapq.heappush(q, (nd, nx,ny))
     return distance[n-1][n-1] + array[0][0]
+
 cnt = 0
 while True:
     cnt += 1
     n = int(input())
-    if n is 0:
+    if n == 0:
         break
     array = [list(map(int, input().split())) for _ in range(n)]
     distance = [[INF] * n for _ in range(n)]
