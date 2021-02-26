@@ -15,7 +15,7 @@ for _ in range(e):
     indegree[b] += 1
 
 #위상 정렬 함수
-def topolgy_sort():
+def topology_sort():
     result = [] #수행 결과를 담을 리스트
     q = deque()
 
@@ -39,4 +39,4 @@ def topolgy_sort():
 #위상정렬 수행결과 출력
     for i in result:
         print(i, end=' ')
-topolgy_sort()
+topology_sort()
