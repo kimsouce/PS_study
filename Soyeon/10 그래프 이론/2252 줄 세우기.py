@@ -1,28 +1,28 @@
 from collections import deque
 
 n, m= map(int, input().split())
-indegree = [0] * (n+1)     
+indegree = [0] * (n+1)     #모든 노드에 대한 진입차수 0으로 초기화     #연결이 안되어 있다고 가정
 graph = [[] for _ in range(n+1)]
 
 for _ in range(m):
     a, b = map(int, input().split())
-    graph[a].append(b)      #a가 b 앞에 서야 하므로 que에서 먼저 pop 되어야 한다   #즉, 위상순서가 앞이어야 한다
-    indegree[b] +=1
+    graph[a].append(b)      #정점 a 에서 b로의 간선 존재
+    indegree[b] +=1     #b의 진입차수 1 증가
 
 def topology_sort():
-    result = []
+    result = []     #알고리즘 수행 결과를 담을 리스트
     q = deque()
     
     for i in range(1, n+1):
-        if indegree[i] == 0:
+        if indegree[i] == 0:    #진입차수가 0인 노드를 큐에 삽입(시작 노드)
             q.append(i)
     
-    while q:
+    while q:     #큐가 빌 때 까지 반복
         now = q.popleft()
         result.append(now)
-        for j in graph[now]:
-            indegree[j] -= 1
-            if indegree[j] == 0:
+        for j in graph[now]:     #해당 노드와 연결된 노드들에 대하여
+            indegree[j] -= 1     #진입차수를 1 뺀다
+            if indegree[j] == 0:     #진입차수가 0이 되는 노드를 큐에 삽입(다음 시작 노드)
                 q.append(j)
                 
     for k in result:
