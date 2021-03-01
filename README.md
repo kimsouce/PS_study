@@ -33,7 +33,7 @@
 
 |날짜|학습 내용|공통 문제|개별 문제|
 |--------|-------|---------|-------|
-|0307| 유형별 기출문제| [18406][18406] 구현_럭키 스트레이트 <br/> [1439][1439] 그리디_문자열 뒤집기|[1449][1449] 그리디_수리공 항승|
+|0307| 유형별 기출문제| [18406][18406] 구현_럭키 스트레이트 <br/> [1439][1439] 그리디_문자열 뒤집기 <br/> [18405][18405] DFS/BFS_경쟁적 전염|[1449][1449] 그리디_수리공 항승 <br/> [1912][1912] DP_연속합|
 
 [11047]:https://www.acmicpc.net/problem/11047
 [11399]:https://www.acmicpc.net/problem/11399
@@ -112,3 +112,5 @@
 [18406]: https://www.acmicpc.net/problem/18406
 [1449]: https://www.acmicpc.net/problem/1449
 [1439]: https://www.acmicpc.net/problem/1439
+[18405]:https://www.acmicpc.net/problem/18405
+[1912]:https://www.acmicpc.net/problem/1912
