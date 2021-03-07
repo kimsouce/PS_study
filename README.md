@@ -34,6 +34,7 @@
 |날짜|학습 내용|공통 문제|개별 문제|
 |--------|-------|---------|-------|
 |0307| 유형별 기출문제| [18406][18406] 구현_럭키 스트레이트 <br/> [1439][1439] 그리디_문자열 뒤집기 <br/> [18405][18405] DFS/BFS_경쟁적 전염 <br/> [42891][42891] 그리디_무지의 먹방 라이브|[1449][1449] 그리디_수리공 항승 <br/> [1912][1912] DP_연속합<br/>[4796][4796] 그리디_캠핑 <br/> [2960][2960] 구현_에라토스테네스의 체|
+|0314| 유형벼 기출문제| [3190][3190] 구현_뱀 | [1325][1325] DFS/BFS_효율적인 해킹|
 
 [11047]:https://www.acmicpc.net/problem/11047
 [11399]:https://www.acmicpc.net/problem/11399
@@ -117,3 +118,5 @@
 [42891]:https://programmers.co.kr/learn/courses/30/lessons/42891?language=python3핑
 [4796]:https://www.acmicpc.net/problem/4796
 [2960]: https://www.acmicpc.net/problem/2960
+[3190]: https://www.acmicpc.net/problem/3190
+[1325]: https://www.acmicpc.net/problem/1325
