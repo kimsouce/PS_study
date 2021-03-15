@@ -34,7 +34,8 @@
 |날짜|학습 내용|공통 문제|개별 문제|
 |--------|-------|---------|-------|
 |0307| 유형별 기출문제| [18406][18406] 구현_럭키 스트레이트 <br/> [1439][1439] 그리디_문자열 뒤집기 <br/> [18405][18405] DFS/BFS_경쟁적 전염 <br/> [42891][42891] 그리디_무지의 먹방 라이브|[1449][1449] 그리디_수리공 항승 <br/> [1912][1912] DP_연속합<br/>[4796][4796] 그리디_캠핑 <br/> [2960][2960] 구현_에라토스테네스의 체|
-|0314| 유형별 기출문제| [3190][3190] 구현_뱀<br/>[14502][14502] DFS/BFS_연구소 <br/> [42889][42889] 정렬_실패율 <br/> [2110] [2110] 이진 탐색_공유기 설치<br/>| [1325][1325] DFS/BFS_효율적인 해킹<br/>[1966][1966] 구현_프린터 큐<br/> [1009][1009] 구현_분산처리 <br/> [2805][2805] 이진탐색_나무 자르기|
+|0314| 유형별 기출문제| [3190][3190] 구현_뱀<br/>[14502][14502] DFS/BFS_연구소 <br/> [42889][42889] 정렬_실패율 <br/> [2110][2110] 이진 탐색_공유기 설치<br/>| [1325][1325] DFS/BFS_효율적인 해킹<br/>[1966][1966] 구현_프린터 큐<br/> [1009][1009] 구현_분산처리 <br/> [2805][2805] 이진탐색_나무 자르기|
+|0321| 유형별 기출문제| [1932][1932] DP_정수 삼각형<br/> [60058][60058] DFS/BFS_괄호 변환 <br/> | [17521][17521] 그리디_Byte Coin <br/> [2460][2460] 구현_지능형 기차2
 
 [11047]:https://www.acmicpc.net/problem/11047
 [11399]:https://www.acmicpc.net/problem/11399
@@ -115,7 +116,7 @@
 [1439]: https://www.acmicpc.net/problem/1439
 [18405]:https://www.acmicpc.net/problem/18405
 [1912]:https://www.acmicpc.net/problem/1912  
-[42891]:https://programmers.co.kr/learn/courses/30/lessons/42891?language=python3핑
+[42891]:https://programmers.co.kr/learn/courses/30/lessons/42891?language=python3
 [4796]:https://www.acmicpc.net/problem/4796
 [2960]: https://www.acmicpc.net/problem/2960
 [3190]: https://www.acmicpc.net/problem/3190
@@ -126,3 +127,7 @@
 [1009]: https://www.acmicpc.net/problem/1009  
 [2110]: https://www.acmicpc.net/problem/2110  
 [2805]: https://www.acmicpc.net/problem/2805
+[1932]: https://www.acmicpc.net/problem/1932
+[17521]: https://www.acmicpc.net/problem/17521
+[60058]:https://programmers.co.kr/learn/courses/30/lessons/60058
+[2460]: https://www.acmicpc.net/problem/2460
