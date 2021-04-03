@@ -3,6 +3,10 @@ input = sys.stdin.readline
 
 t = int(input())
 
+# for _ in range(t):
+#     a, b = map(int, input().split())
+#     print((a**b) % 10)
+
 #data = [[], [1], [2,4,8,6], [9,7,1], [4,6], [5], [6], [9,3,1], [8,4,2,6], [9,1]]
 
 for _ in range(t):
@@ -28,8 +32,3 @@ for _ in range(t):
 
 
 
-
-#
-# for _ in range(t):
-#     a, b = map(int, input().split())
-#     print((a**b) % 10)
